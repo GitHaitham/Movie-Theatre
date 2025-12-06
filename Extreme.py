@@ -33,7 +33,7 @@ def list_available_films(available_films):
                 count+=1
                 print(str(count) + string )
 
-#print seating chart of selected film
+#print seating chart of picked film
 def show_seating_chart(chosen_film, chosen_film_seats):
     string=""
     print(f"\nSeating chart for {chosen_film}")
